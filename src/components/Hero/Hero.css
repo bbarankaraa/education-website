@@ -1,0 +1,52 @@
+.hero {
+    height: 100vh;
+    background: url("../../assets/hero-wallpaper.jpg");
+    padding: 0;
+}
+
+.blur {
+    backdrop-filter: blur(3px);
+    width: 100%;
+}
+
+.hero .container {
+    height: 100vh;
+}
+
+.hero-image {
+    
+}
+
+.hero-image img {
+    height: 600px;
+}
+
+.hero-container .content {
+    color: white;
+}
+
+.hero-container .content h1{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-btn {
+    background: rgb(255, 23, 23);
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all ease-in-out .3s;
+}
+
+.hero-btn:hover {
+    background: #000;
+    color: white;
+    transform: translateY(-4px);
+}
