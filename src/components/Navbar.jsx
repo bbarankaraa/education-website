@@ -3,6 +3,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div>
+<<<<<<< HEAD
         <nav class="mt-5 navbar navbar-expand-sm  ">
           <div class="container-sm">
             <a class="navbar-brand fw-" href="#">Ediz | Akademi</a>
@@ -40,6 +41,11 @@ const Navbar = () => {
           </div>
       </nav>
     </div>
+=======
+        
+    </div>
+    
+>>>>>>> b2d4b49be18ddef08aa4bc9e470518802ea2f29b
   )
 }
 
