@@ -19,7 +19,7 @@ const Navbar = () => {
                 </li>
                   <li class="nav-item dropdown ">
                   <a class="nav-link dropdown-toggle mx-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Hizmetlerimiz
+                      Eğitimlerimiz
                   </a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item text-danger" href="#">İngilizce Eiğitimi</a></li>
