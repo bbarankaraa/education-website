@@ -3,11 +3,11 @@ import './References.css'
 import video1 from '../../assets/video1.jpeg'
 const References = () => {
     return (
-        <div className='wrapper container-fluid'>
+        <div className='references container-fluid py-5'>
             <div className="container">
-                <div className="row text-center">
-                    <h1 className='text-white mb-5'>ÖĞRENCİLERİMİZİN DENEYİMLERİ</h1>
-                    <div className="col-sm-4 ">
+                    <h1 className='text-white mb-5 text-center'>ÖĞRENCİLERİMİZİN DENEYİMLERİ</h1>
+                <div className="row text-center d-flex flex-column flex-lg-row justify-content-center align-items-center gap-lg-0 gap-5">
+                    <div className="col-lg-4 d-flex flex-column align-items-center justify-content-center">
                         <div className='position-relative'>
                         <img src={video1} alt="Video 1" />
                         <div className='play-btn'>
@@ -19,7 +19,7 @@ const References = () => {
                         <span>"Demo dersinden sonra kararımı kesin olarak değiştirdim ve özel derslere hemen başladık."</span>
                         </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-lg-4 d-flex flex-column align-items-center justify-content-center">
                     <div className='position-relative'>
                         <img src={video1} alt="Video 1" />
                         <div className='play-btn'>
@@ -31,7 +31,7 @@ const References = () => {
                         <span>"Yoğun bir tempoyla çalışıyorsanız ve İngilizceye vakit ayıramıyorsanız size tavsiye ederim."</span>
                         </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-lg-4 d-flex flex-column align-items-center ">
                     <div className='position-relative'>
                         <img src={video1} alt="Video 1" />
                         <div className='play-btn'>

@@ -1,23 +1,22 @@
-.wrapper {
+.references {
     background: rgb(64, 64, 64);
-    padding: 50px 100px;
 }
 
-.wrapper img {
+.references img {
     height: 200px;
-    width: 350px;
+    width: auto;
 }
 
-.wrapper h3 {
+.references h3 {
     font-size: 15px;
     color: rgb(249, 249, 249);;
 }
 
-.wrapper span {
+.references span {
     color: rgb(185, 185, 185);
 }
 
-.wrapper .play-btn {
+.references .play-btn {
     position: absolute;
     top: 50%;
     right: 50%;
@@ -25,7 +24,7 @@
     transform: translate(+50%,-50%);
 }
 
-.wrapper .play-btn img {
+.references .play-btn img {
     height: 60px;
     width: 60px;
 }
