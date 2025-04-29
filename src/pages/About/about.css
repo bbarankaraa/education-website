@@ -1,0 +1,42 @@
+.about-container {
+  height: 120px !important;
+  padding-top: 45px;
+  color: #d20202;
+  font-size: 70px;
+}
+
+.experience-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.checklist li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.checklist li::before {
+  content: "O";
+  margin-right: 10px;
+}
+
+.stat-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.stat-label {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+.red-bg {
+  background-color: #d20202;
+  padding: 60px 0;
+}

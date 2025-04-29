@@ -1,23 +1,21 @@
 .navbar-nav .nav-link {
-    color: #D20202!important;
-    font-size: 18px !important;
-    font-family: manrope!important;
-
+  color: #d20202 !important;
+  font-size: 18px !important;
+  font-family: manrope !important;
 }
 
 .navbar-brand {
-    font-size: 20px !important;
-    color: #D20202!important;
-    font-family: manrope!important;
-    font-weight: 300px!important;
-   
+  font-size: 17px !important;
+  color: #d20202 !important;
+  font-family: manrope !important;
+  font-weight: 300px !important;
 }
 
 .dropdown-toggle::after {
-    border-top:.0em solid!important;
+  border-top: 0em solid !important;
 }
 
 /* hizmetlerimiz kısmındaki içeriklere tıklanınca mavi hover kısmı rengi kaldırdım başka bir renkte yapabiliriz */
 .dropdown-menu {
-    --bs-dropdown-link-active-bg:none!important;
+  --bs-dropdown-link-active-bg: none !important;
 }

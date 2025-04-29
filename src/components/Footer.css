@@ -1,28 +1,26 @@
 footer {
-    background-color: #D20202; 
-    font-family: 'Poppins', sans-serif; 
+  background-color: #d20202;
+  font-family: "Poppins", sans-serif;
 }
 footer h5 {
-    font-weight: 600;
-    margin-bottom: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 
 footer ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 footer ul li a {
-    color: #ecf0f1;
-    text-decoration: none;  
+  color: #ecf0f1;
+  text-decoration: none;
 }
 
-.margin-left{
-    margin-left: 60px;
+.margin-left {
+  margin-left: 60px;
 }
-
 
 @media (max-width: 991px) {
-    .margin-left {
-        margin-left: 0px;
-    }
+  .margin-left {
+    margin-left: 0px;
+  }
 }
-
